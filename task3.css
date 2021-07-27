@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  height: 100vh;
+  width: 100vw;
+  background: #DDDDDD;
+}
+
+.container_content {
+  top: 5vh;
+  left: 3.5vw;
+  position: relative;
+  width: 93vw;
+  height: 90vh;
+  border: 2px solid #ffffff;
+  background-color: white;
+}
+
+.karma, .team_builder, .calculator, .supervisor {
+  width: 25vw;
+  height: 30vh;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.calculator {
+  position: absolute;
+  bottom: 16vh;
+  left: 62vw;
+}
+
+.supervisor {
+  position: absolute;
+  bottom: 16vh;
+  left: 5.6vw;
+}
+
+.karma {
+  position: absolute;
+  left: 34vw;
+  bottom: 3.6vh;
+}
+
+.team_builder {
+  position: absolute;
+  left: 34vw;
+  top: 24vh;
+}
+
+.theme {
+  text-align: center;
+  margin-top: 4.5vh;
+}
+
+.team_builder_toplayer {
+  height: 1.2vh;
+  width: 25vw;
+  background: #EB5355;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.supervisor_toplayer {
+  height: 1.2vh;
+  width: 25vw;
+  background: #47D1D1;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.karma_toplayer {
+  height: 1.2vh;
+  width: 25vw;
+  background: #FBAD4B;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.calculator_toplayer {
+  height: 1.2vh;
+  width: 25vw;
+  background: #529EF2;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.team_builder_details_2, .team_builder_details_1, .supervisor_details_1, .supervisor_details_2, .karma_details_1, .karma_details_2, .calculator_details_1, .calculator_details_2 {
+  margin-left: 2vw;
+}
+
+.team_builder_details_1, .supervisor_details_1, .karma_details_1, .calculator_details_1 {
+  margin-top: 3.5vw;
+  margin-bottom: 1vw;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.team_builder_details_2, .supervisor_details_2, .karma_details_2, .calculator_details_2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.theme_details_1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.theme_details_2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.theme_details_3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+}
+
+img.karma_image, img.calculator_image, img.supervisor_image, img.team_builder_image {
+  margin-top: 2.5vh;
+  margin-left: 18vw;
+}
+
+@media (max-width: 800px) {
+  .container_content {
+    position: static;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 32px;
+    width: 100%;
+    height: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: white;
+  }
+  .karma, .team_builder, .calculator, .supervisor {
+    position: static;
+    width: 289px;
+    height: 204px;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+  }
+  .calculator {
+    margin-bottom: 32px;
+  }
+  img.karma_image, img.calculator_image, img.supervisor_image, img.team_builder_image {
+    margin-top: 25px;
+    margin-left: 209px;
+  }
+  .team_builder_toplayer, .karma_toplayer, .supervisor_toplayer, .calculator_toplayer {
+    width: 289px;
+  }
+  .theme_details_2 {
+    margin-bottom: 16px;
+  }
+  .theme_details_1 {
+    margin-bottom: 8px;
+  }
+}
+/*# sourceMappingURL=task3.css.map */
